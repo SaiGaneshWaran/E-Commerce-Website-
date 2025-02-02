@@ -1,0 +1,90 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Heading Section */
+.heading {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #189ab4;
+    color: #fff;
+}
+
+.heading h1 {
+    font-size: 36px;
+}
+
+.heading p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Container for Content */
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Image Styling */
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Styling */
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        padding: 15px;
+    }
+
+    .about-image {
+        margin-bottom: 20px;
+    }
+}
